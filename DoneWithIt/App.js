@@ -21,7 +21,7 @@ export default function App() {
         width: '100%',
         height: '30%'
       }}>
-        <Text numberOfLines={1} onPress={handlePress}> Hello to my first react native app:) yuhooo! no matter what happens that's it. bahala na
+        <Text numberOfLines={1} onPress={handlePress}> Hello to my first react native app:)
         </Text>
         <TouchableHighlight onPress={()=> console.log("Image tapped")}>
           <Image 
